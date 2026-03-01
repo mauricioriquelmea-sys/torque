@@ -33,7 +33,7 @@ if os.path.exists("Logo.png"):
     with open("Logo.png", "rb") as f:
         st.markdown(f'<div style="text-align: center;"><img src="data:image/png;base64,{base64.b64encode(f.read()).decode()}" width="380"></div>', unsafe_allow_html=True)
 
-st.title("🔩 Calculador de Torque de Pernos (Sistema Métrico)")
+st.title("🔩 Calculador de Torque de Pernos")
 st.caption("Proyectos Estructurales EIRL | Ingeniería de Conexiones de Precisión")
 
 # =================================================================

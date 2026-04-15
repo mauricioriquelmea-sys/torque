@@ -165,7 +165,7 @@ torque_final = torque_base + t_nylon
 # 5. DESPLIEGUE DE RESULTADOS
 # =================================================================
 
-st.title("🔩 Memoria de Torque Conexiones Mecánicas]")
+st.title("🔩 Memoria de Torque Conexiones Mecánicas")
 st.caption(f"Configuración de Sustrato: {tipo_mat} | Factor K Adoptado: {k_val}")
 
 m1, m2, m3, m4 = st.columns(4)
